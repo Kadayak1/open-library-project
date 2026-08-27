@@ -1,0 +1,4 @@
+pypdf>=5.0,<7
+requests>=2.31,<3
+openlibrary-client @ git+https://github.com/internetarchive/openlibrary-client.git
+

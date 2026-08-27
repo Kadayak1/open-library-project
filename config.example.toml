@@ -1,0 +1,13 @@
+[openlibrary]
+# Public username only. Credentials remain in olclient's ~/.config/ol.ini.
+username = "your_openlibrary_username"
+base_url = "https://openlibrary.org"
+user_agent_email = "you@example.com"
+request_delay_seconds = 0.35
+# Prefix Open Library assigns to this account for the source_records field of
+# imported records (e.g. "mylibrary"). Required before create-missing may run
+# without --dry-run; apply for it together with import/bot privileges.
+import_source_prefix = ""
+
+[paths]
+library_root = "/absolute/path/to/the/folder/containing/list-folders"
